@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC } from 'react';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import tabsData from './tabs.json';
+import { Tab } from "./types/Tab";
+import TabsNav from "./components/TabsNav/TabsNav";
+import LazyComponentLoader from "./components/LazyComponentLoader";
 
-function App() {
+export const App: FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <TabsNav tabs={tabsData} />
+
+        <Routes>
+          {tabsData.map((tab: Tab) => (
+              <Route
+                  key={tab.id}
+                  path={tab.id}
+                  element={<LazyComponentLoader path={tab.path} />}
+              />
+          ))}
+
+          <Route
+              path="/*"
+              element={<Navigate to={tabsData[0].id} />}
+          />
+        </Routes>
+      </Router>
   );
 }
-
-export default App;
