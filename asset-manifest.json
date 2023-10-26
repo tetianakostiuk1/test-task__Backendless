@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/test-task__Backendless/static/css/main.744e3642.css",
+    "main.js": "/test-task__Backendless/static/js/main.8b207e4a.js",
+    "static/js/513.c33e994b.chunk.js": "/test-task__Backendless/static/js/513.c33e994b.chunk.js",
+    "static/css/878.98375b06.chunk.css": "/test-task__Backendless/static/css/878.98375b06.chunk.css",
+    "static/js/878.b7c57c00.chunk.js": "/test-task__Backendless/static/js/878.b7c57c00.chunk.js",
+    "static/css/386.98375b06.chunk.css": "/test-task__Backendless/static/css/386.98375b06.chunk.css",
+    "static/js/386.70717e20.chunk.js": "/test-task__Backendless/static/js/386.70717e20.chunk.js",
+    "static/css/782.98375b06.chunk.css": "/test-task__Backendless/static/css/782.98375b06.chunk.css",
+    "static/js/782.6f859a99.chunk.js": "/test-task__Backendless/static/js/782.6f859a99.chunk.js",
+    "static/css/483.98375b06.chunk.css": "/test-task__Backendless/static/css/483.98375b06.chunk.css",
+    "static/js/483.dc159aee.chunk.js": "/test-task__Backendless/static/js/483.dc159aee.chunk.js",
+    "index.html": "/test-task__Backendless/index.html",
+    "main.744e3642.css.map": "/test-task__Backendless/static/css/main.744e3642.css.map",
+    "main.8b207e4a.js.map": "/test-task__Backendless/static/js/main.8b207e4a.js.map",
+    "878.98375b06.chunk.css.map": "/test-task__Backendless/static/css/878.98375b06.chunk.css.map",
+    "878.b7c57c00.chunk.js.map": "/test-task__Backendless/static/js/878.b7c57c00.chunk.js.map",
+    "386.98375b06.chunk.css.map": "/test-task__Backendless/static/css/386.98375b06.chunk.css.map",
+    "386.70717e20.chunk.js.map": "/test-task__Backendless/static/js/386.70717e20.chunk.js.map",
+    "782.98375b06.chunk.css.map": "/test-task__Backendless/static/css/782.98375b06.chunk.css.map",
+    "782.6f859a99.chunk.js.map": "/test-task__Backendless/static/js/782.6f859a99.chunk.js.map",
+    "483.98375b06.chunk.css.map": "/test-task__Backendless/static/css/483.98375b06.chunk.css.map",
+    "483.dc159aee.chunk.js.map": "/test-task__Backendless/static/js/483.dc159aee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.744e3642.css",
+    "static/js/main.8b207e4a.js"
+  ]
+}
